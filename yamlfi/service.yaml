@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: static-service
+  name: static-webhost
 spec:
   selector:
     name: static-webhost 
